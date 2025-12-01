@@ -220,4 +220,28 @@ body::-webkit-scrollbar-thumb{
         width:80%;
         margin-top: 20px;
     }
+
+        .details {
+        width: 95%;
+        height: 90%;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .recipe-details {
+        font-size: 14px;  /* smaller text on mobile */
+    }
+
+    .list {
+        margin: 15px 0;
+    }
+
+    .process {
+        line-height: 22px;
+    }
+
+    .recipe-close {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
 }
