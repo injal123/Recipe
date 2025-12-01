@@ -221,9 +221,10 @@ body::-webkit-scrollbar-thumb{
         margin-top: 20px;
     }
 
-        .details {
-        width: 95%;
-        height: 90%;
+    .details {
+        margin-top: 60px;
+        width: 85%;
+        height: 50%;
         border-radius: 12px;
         padding: 15px;
     }
