@@ -13,7 +13,7 @@ It fetches real recipes from TheMealDB API and displays ingredients, instruction
 
 
 
-📁 Project Structure
+## Project Structure
 <pre>
 Recipe/
 │── index.html
