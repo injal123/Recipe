@@ -4,6 +4,9 @@ let box = document.querySelector(".boxbox");
 let detail = document.querySelector(".recipe-details");
 let closeBtn = document.querySelector(".recipe-close");
 
+const imageElement = document.getElementById('img'); // Assuming your image has id="myImage"
+   
+
 
 
 
@@ -27,6 +30,7 @@ const fetchRecipe = async (ok) => {
     //  console.log(response);
     // console.log(response.meals[0]);
 
+    
     box.innerHTML = " ";
 
      response.meals.forEach(value => {
@@ -51,7 +55,7 @@ const fetchRecipe = async (ok) => {
      });
 
     } catch (error) {
-        box.innerHTML = "<h2>   Error occurred !!  </h2>";
+        box.innerHTML = "<h2>   No such recipe found !!  </h2>";
     }
 }
 

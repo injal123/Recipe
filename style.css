@@ -83,8 +83,6 @@ form button[type="submit"]:hover , .recipe button:hover, .recipe-close{
 
 
 
-
-
 .boxbox{
     /* for "Search the recipe" */
     text-align: center;
@@ -145,7 +143,7 @@ form button[type="submit"]:hover , .recipe button:hover, .recipe-close{
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: black ; 
+    background-color: rgb(87, 35, 35) ; 
     -webkit-transform: translate(-50%, -50%);
     border-radius: 7px;
 
