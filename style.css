@@ -13,10 +13,10 @@ body{
 
 nav{
     background-color: black;
-    padding: 15px;
+    padding: 35px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     z-index: 1;
     position: sticky;
 }
@@ -60,7 +60,7 @@ form input[type="text"]{
 form input[type="text"], button[type="submit"]{
    border: none;
    font-size: 17px;
-   padding: 6px;
+   padding: 16px 20px;
    border-radius: 19px;
 }
 
@@ -105,7 +105,7 @@ form button[type="submit"]:hover , .recipe button:hover, .recipe-close{
     border-radius: 20px;
     box-shadow: 5px 4px 15px;
     cursor: pointer;
-    max-width: 330px;
+    max-width: 300px;
     transition: transform 0.3s;
 }
 
@@ -138,14 +138,16 @@ form button[type="submit"]:hover , .recipe button:hover, .recipe-close{
 
 .details{
     display: none;
-    width: 500px;
+    width: 800px;
     height: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
     background-color: rgb(87, 35, 35) ; 
     -webkit-transform: translate(-50%, -50%);
-    border-radius: 7px;
+
+    /* Left side rounded, right side flat....top-left top-right bottom-right bottom-left; */ 
+    border-radius: 17px 0 0 17px;
 
     transform: translate(-50%, -50%);
     transition: 2s;
@@ -191,8 +193,8 @@ form button[type="submit"]:hover , .recipe button:hover, .recipe-close{
     margin: 13px auto;
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
 }
 
 
